@@ -192,11 +192,77 @@ button:hover{
     border-radius: 4px;
     margin-right: 110px;
     margin-top: 10px;
+    padding: 0 20px;
 
 }
 .one{
-    height: 40vh;
+    height: fit-content;
+
 }
-.two{
-    height: 40vh;
+.one .partone ul{
+    list-style: none;
+    display: grid;
+   grid-template-columns:repeat(4 ,1fr) ;
+   gap: 10px;
 }
+.one ,.partone h1,
+.one .parttwo h1{
+    margin:20px 0px 20px 0px;
+    }
+.one .partone .link{
+    display: flex;
+    font-size: 1.1rem;
+    color: rgb(116, 116, 116);
+    
+}
+.link p{
+    margin-right: 5px;
+}
+
+.listone{
+    display: flex;
+    
+}
+.listone li,
+.listtwo li,
+.listthree li{
+display: flex;
+font-size: 1.1rem;
+ color: rgb(116, 116, 116);
+}
+.parttwo{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 100px;
+    margin: 30px 0;
+  
+}
+
+.one .parttwo .listone {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+.one .parttwo .listtwo {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+.one .parttwo .listthree {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+ 
+}
+.one .partthree ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+.one .partthree ul li{
+    display: flex;
+    font-size: 1.1rem;
+ color: rgb(116, 116, 116);}
+ .one li p{
+    margin-right:6px;
+ }
