@@ -59,6 +59,7 @@
   .shake:hover {
     display: inline-block;
     animation: shake 0.5s ease-in-out;
+   
   }
   .account{
     background-color: rgb(155, 211, 213);
@@ -100,7 +101,7 @@
 }
 .sideBar .list li:hover{
     color: rgb(16, 16, 16);
-    background-color: rgb(235, 235, 235);
+    background-color: rgba(237, 237, 237, 0.555);
    
 }
 .sideBar .list li .fas{
@@ -114,18 +115,84 @@
 }
 .home{
     display: flex;
+    flex-direction:row;
     align-items: center;
     margin-right: 10px;
 }
-.home .homeicon{
+
+.homeicon {
+display: block;
+}
+.arrow {
+display: none;
+}
+.home:hover .homeicon {
+display: none;
+}
+.home:hover .arrow {
+display: block;
+}
+.home .homeicon,
+.home .arrow{
     margin-right: 20px;
     font-size: 1.5rem;
 }
-.homeContainer{
+.list .public {
+    display: flex;
+    margin-left: 62px;
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+    color: rgb(136, 136, 136);
+}
+.publictext {
+    margin-left: 18px;
+}
+
+
+
+ .alert{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(255, 237, 196);
+    margin-right: 110px;
+    height: fit-content;
+    align-items: center;
+    padding:5px 10px;
+    border-radius: 5px;
+}
+.alert .rightside{
+    display: flex;
+    align-items: center;
+
+}
+.alert .leftside{
+    display: flex;
+    align-items: center;
+}
+button{
+    height: fit-content;
+    padding: 4px;
+    margin-right: 8px;
+    border: 1px solid rgb(193, 136, 51);
+    border-radius: 3px;
+    background-color: transparent;
+    font-weight:600;
+    color: chocolate;
+}
+button:hover{
+    background-color: chocolate;
+    color: antiquewhite;
+    
+}
+
+.sections{
     border: 1px solid rgb(207, 207, 207) ;
     border-radius: 4px;
-    margin-top: 60px;
-    margin-right: 120px;
+    margin-right: 110px;
+    margin-top: 10px;
+
 }
 .one{
     height: 40vh;
