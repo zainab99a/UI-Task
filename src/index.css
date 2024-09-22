@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: linear-gradient(135deg, #220684, #0b002d);
+  height: 100%; 
+  margin: 0; 
+  font-family: Verdana, sans-serif;
+}
+.dash {
+  position: relative; 
+}
+.dash:before {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 12px;
+  left: -40px;
+  width: 30px;
+  height: 2px;
+  background: #ffffff90;
+}
+
+
