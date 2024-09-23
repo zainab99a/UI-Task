@@ -30,7 +30,7 @@ export default function ContactPage() {
         </div>
         <div className='mb-12'>
         <form action="">
-      {/* Name Input */}
+     
       <div className="relative mb-6">
         <label className="flex items-center mb-2 text-gray-600 text-sm font-medium">
           Name
@@ -47,7 +47,7 @@ export default function ContactPage() {
         />
       </div>
 
-      {/* Email Input */}
+     
       <div className="relative mb-6">
         <label className="flex items-center mb-2 text-gray-600 text-sm font-medium">
           Email
@@ -64,7 +64,7 @@ export default function ContactPage() {
         />
       </div>
 
-      {/* Message Textarea */}
+     
       <div className="relative mb-6">
         <label className="flex items-center mb-2 text-gray-600 text-sm font-medium">
           Message
@@ -79,7 +79,7 @@ export default function ContactPage() {
         ></textarea>
       </div>
 
-      {/* Submit Button */}
+    
       <button className="w-full h-12 bg-transparent border hover:bg-[#0e052b78] transition-all duration-700 rounded-full shadow-xs text-white text-base font-semibold leading-6 mt-6">
         Send Message
       </button>
